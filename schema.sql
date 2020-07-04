@@ -1,0 +1,9 @@
+Drop TABLE IF EXISTS Beacon;
+
+CREATE TABLE Beacon (
+	channel INTEGER NOT NULL,
+	ssid TEXT NOT NULL,
+	bssid TEXT NOT NULL,
+	dBm TEXT NOT NULL,
+	ntp TEXT NOT NULL
+);
